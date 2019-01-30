@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h1>Welcome to GC Coffee</h1>
+
+    <h1>Shop! <button type="button" onclick="location.href='@Url.Action("Index", "Register")'">Register</button></h1>
+
+    <div>@TempData["EditResult"]</div>
+
+</div>
